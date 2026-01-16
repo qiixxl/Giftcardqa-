@@ -1,0 +1,32 @@
+body {
+  background:#4b1fa6;
+  font-family:Arial;
+}
+
+.container {
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(180px,1fr));
+  gap:15px;
+  padding:20px;
+}
+
+.card {
+  background:#5f2bd8;
+  border-radius:12px;
+  padding:15px;
+  color:#fff;
+  text-align:center;
+}
+
+.card img {
+  width:100%;
+  border-radius:8px;
+}
+
+button {
+  background:#00e676;
+  border:none;
+  padding:10px;
+  border-radius:8px;
+  cursor:pointer;
+}
